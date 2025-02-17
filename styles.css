@@ -72,10 +72,11 @@ table {
 
 
 body{
-	min-width: 450px;
-	width: 100%;
+    min-width: 450px;
+    width: 100%;
     font-family: 'Inter', serif;
     background-color: var(--Purple);
+    margin: auto;
    
 }
 h1, h2 {
@@ -261,7 +262,7 @@ section .box-item {
     margin: 0 auto;
     padding: 5px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;
     text-align: center;
     
@@ -800,8 +801,13 @@ text-align: left;
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (min-width:1280px) {
-    body {
-    width: 99%;
-    }
+
+body {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+	
 }
 
