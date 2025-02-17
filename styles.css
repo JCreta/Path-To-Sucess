@@ -801,7 +801,7 @@ text-align: left;
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (min-width:1280px) {
     body {
-    width: 97%;
+    width: 99%;
     }
 }
 
