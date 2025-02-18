@@ -651,6 +651,11 @@ th {
    word-wrap: break-word;
    
 }
+
+ tr {
+   word-wrap: auto;
+   
+}
 	
 .one-on-one, .group-coaching, .workshops-seminars, .online-courses {
     display: flex;
