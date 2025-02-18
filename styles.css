@@ -652,7 +652,10 @@ div, .pricing-category {
     grid-column: span 1; 
    
 }
-
+table {
+        width: 100%; 
+        table-layout: fixed; 
+}	
  table td, table th {
         word-wrap: break-word;
         overflow-wrap: break-word;
