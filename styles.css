@@ -647,7 +647,15 @@ th {
     width:100%;
 }
 
+div, .pricing-category {
+    display: block;
+    flex-direction: column;
+    gap: 5px;
+    grid-column: span 1; 
+   
+}
 
+	
  tr {
    word-wrap: break-word;
    
