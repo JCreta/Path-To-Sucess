@@ -653,10 +653,10 @@ div, .pricing-category {
    
 }
 
-	
- tr {
-   word-wrap: break-word;
-   
+ table td, table th {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal; 
 }
 	
 .one-on-one, .group-coaching, .workshops-seminars, .online-courses {
