@@ -270,7 +270,7 @@ section .box-item {
 
 
 
-h2, #prices {
+h2 #prices {
     display: block;
     background-color: #484FB7;
     padding-top: 0px;
@@ -366,11 +366,11 @@ aside p {
     
 } 
 
-h2, #prices {
+h2 #prices {
     background-color: #484FB7;
 }
 
-h2, #first-step {
+h2 #first-step {
     background-color: #D9526F;
 }
 /*----schedule button -----------*/
