@@ -565,6 +565,10 @@ td {
     align-self: start; 
     padding: 10px 70px;
 }
+
+#prices h2 {
+    background-color: var(--Purple) !important;
+}	
 }
 
 /*-------------------- MEDIA QUERY 950(large) ------------------------------------*/
