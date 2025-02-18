@@ -270,13 +270,12 @@ section .box-item {
 
 
 
-h2 #prices {
+#prices > h2:first-child {
     display: block;
     background-color: #484FB7;
     padding-top: 0px;
     padding-bottom: 5px;
 }
-
 
 #one-on-one, #group-coaching, #workshops-seminars, #online-courses {
     background: #ffffff;
@@ -324,9 +323,7 @@ tr {
     background-color: #ffffff;
 }
 
-#prices h2 {
-    background-color: var(--Purple) !important;
-}
+
    
 
 /*----First Step-----------*/
