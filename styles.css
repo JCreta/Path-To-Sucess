@@ -277,11 +277,8 @@ h2 #prices {
     padding-bottom: 5px;
 }
 
-/* Styling for each pricing category */
-#one-on-one,
-#group-coaching,
-#workshops-seminars,
-#online-courses {
+
+#one-on-one, #group-coaching, #workshops-seminars, #online-courses {
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -327,7 +324,9 @@ tr {
     background-color: #ffffff;
 }
 
-
+#prices h2 {
+    background-color: var(--Purple) !important;
+}
    
 
 /*----First Step-----------*/
@@ -366,9 +365,7 @@ aside p {
     
 } 
 
-article#services > h2 {
-    background-color: #484FB7;
-}
+
 
 h2 #first-step {
     background-color: #D9526F;
