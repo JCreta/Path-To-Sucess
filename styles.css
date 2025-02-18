@@ -366,7 +366,7 @@ aside p {
     
 } 
 
-h2 #prices {
+article#services > h2 {
     background-color: #484FB7;
 }
 
