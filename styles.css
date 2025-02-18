@@ -647,13 +647,9 @@ th {
     width:100%;
 }
 
- h3, .pricing-category {
-   word-wrap: break-word;
-   
-}
 
  tr {
-   word-wrap: auto;
+   word-wrap: break-word;
    
 }
 	
