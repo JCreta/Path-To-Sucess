@@ -669,7 +669,10 @@ table {
     grid-column: span 1; 
 }
 
-
+#prices > div:nth-child(5) {
+   padding-right: 15px;
+}
+	
 
 #prices, h3 {
    text-wrap: nowrap;
