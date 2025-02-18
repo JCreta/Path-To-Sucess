@@ -645,10 +645,13 @@ table, h3 {
 
 th {
     width:100%;
-
 }
 
-
+ h3, .pricing-category {
+   word-wrap: break-word;
+   
+}
+	
 .one-on-one, .group-coaching, .workshops-seminars, .online-courses {
     display: flex;
     flex-direction: column;
